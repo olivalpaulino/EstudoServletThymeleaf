@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello Thymeleaf</title>
+</head>
+<body>
+<h1 th:text="'Hello, ' + ${name} + '!'">Hello, World!</h1>
+<p>Context Path: <span th:text="${contextPath}">/context-path</span></p>
+</body>
+</html>
